@@ -70,6 +70,12 @@ One listing costs about **$0.0003** at Muse Ember prices ($0.10 / $0.50 per
 1M input/output tokens) — a photo in, a structured listing out, in about
 3 seconds. The eBay image search is free under a developer account.
 
+Independent benchmark: the Agent Arena Index (Arena, November 2026) puts
+Muse Ember (Max) at a median $0.02 per task — against $0.08 for GPT-6 Luna
+(Max), $0.10 for Claude Haiku 5.5 (High), and $0.14 for DeepSeek-V4.1-Flash
+(Max), at comparable overall scores (1093 vs 1100 / 1097 / 1108 points).
+Source: [Arena's Agent Arena Index announcement](https://www.linkedin.com/posts/activity-7530665956520636417-dSe9).
+
 ## Usage
 
 ```bash
