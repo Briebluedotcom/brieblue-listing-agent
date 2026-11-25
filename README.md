@@ -1,10 +1,13 @@
 # brieblue-listing-agent
 
-A photo-to-listing **agent** for artisan textiles — built for Brieblue, an
+A photo-to-purchase **agent** for artisan textiles — built for Brieblue, an
 importer of Asian artisan goods, for the Muse Ember Hackathon.
 
-This is not an image analyzer. It is a listing agent: it does the first-draft
-work a seller does for every new piece, end to end.
+This is not an image analyzer. It is a buying agent: it does the evaluation
+work a buyer does for every candidate piece, end to end — what is it, what
+does it sell for, what should I pay. The listing draft is the flip side:
+what you'll sell it as once it's yours. (The previous hackathon build was
+the sales side — ads. This one is the buying side.)
 
 ## What it does
 
@@ -17,8 +20,10 @@ work a seller does for every new piece, end to end.
 3. **eBay grounds it.** The same photo goes to eBay's official
    `search_by_image` endpoint, which returns live comparable listings —
    real titles and real asking prices for visually similar pieces.
-4. **Draft out.** One Markdown draft lands next to the photo: the listing,
-   the comparable listings, and the price range they support.
+4. **Buy sheet out.** One Markdown draft lands next to the photo, and it
+   leads with the buy decision: the comparable listings and the price range
+   they support. The listing draft follows — ready for when the piece is
+   yours to sell.
 
 ## Why the comps matter: mislabeling
 
@@ -38,13 +43,12 @@ In the first live test (Nov 25, 2026), one photo of a vintage Uzbek suzani
 returned 10 comparable eBay listings, on-target prices $150–$499 — two of
 them with the suzani mislabeled as a "tapestry" in the title.
 
-## The same agent, buying
+## Why buying leads
 
-Run the pipeline the other way and it's a buying tool. People already walk
-garage sales and estate sales photographing pieces and asking an AI
-assistant what they're looking at and what it sells for. This agent is that
-workflow, productized: photo in, description and comparable prices out —
-the question just flips from "what do I list it for?" to "what do I pay?"
+People already walk garage sales and estate sales photographing pieces and
+asking an AI assistant what they're looking at and what it sells for. This
+agent is that workflow, productized: photo in, description and comparable
+prices out — and the question it answers first is "what do I pay?"
 
 That's where the mislabeling cuts hardest. A suzani on a folding table
 tagged "blanket, $20" is invisible to keyword search; the image search
