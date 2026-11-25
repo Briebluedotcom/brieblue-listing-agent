@@ -38,6 +38,20 @@ In the first live test (Nov 25, 2026), one photo of a vintage Uzbek suzani
 returned 10 comparable eBay listings, on-target prices $150–$499 — two of
 them with the suzani mislabeled as a "tapestry" in the title.
 
+## The same agent, buying
+
+Run the pipeline the other way and it's a buying tool. People already walk
+garage sales and estate sales photographing pieces and asking an AI
+assistant what they're looking at and what it sells for. This agent is that
+workflow, productized: photo in, description and comparable prices out —
+the question just flips from "what do I list it for?" to "what do I pay?"
+
+That's where the mislabeling cuts hardest. A suzani on a folding table
+tagged "blanket, $20" is invisible to keyword search; the image search
+finds what it actually is and what it actually sells for. For anyone
+sourcing vintage pieces, it's the mislabel hunt with the price already
+on it.
+
 ## Honest limits
 
 The model's tradition and motif labels are **drafts**. They come from
